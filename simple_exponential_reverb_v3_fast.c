@@ -11,7 +11,7 @@ THIS FAST VERSION DIRECTLY OPPERATES ON SHORTS, REDUCING BOTH PROCESSING TIME AN
 
 #define fs 48000		//sample rate (hertz)
 #define length 10		//audio length in seconds
-#define num_delays 100	//number of delays per second of audio
+#define num_delays 100		//number of delays per second of audio
 #define decay 0.99		//amplitude decay factor (linear, 0-1)
 #define thresh 0.1		//reverb cut-off threshold (linear, 0-1)
 #define outamp 0.1		//output volume (linear, 0-1)
